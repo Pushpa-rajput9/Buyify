@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mochiy Pop One', sans-serif;
+font-family: 'Poppins', sans-serif;
+   background-color: rgb(117, 113, 113);
+}
+header{
+  /* background-color: rgb(18, 174, 143); */
+  background-image: repeating-radial-gradient(yellow,aqua,rgb(8, 95, 82));
+  height: 200px;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  height: 60px;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  height: 40px;
+
+}
+nav{
+  margin: 8px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 50px;
+    background-color: rgb(247, 240, 107);
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 3px;
+}
+.topimg{
+    display: flex;
+    
+    column-gap: 10px;
+  background-color: aliceblue;
+}
+.topimg img{
+    display: flex;
+  height: 200px;  
+  width: 50vw;
+}
+#button{
+  background-image:radial-gradient(yellow,aqua,white);
+  border-radius: 10px;
+border-top: 3px solid grey;
+border-left: 3px solid grey;
+  height: 40px;
+  width: 300px;
+}
+main{
+  padding: 5px;
+  height: auto;
+  width: 100vw;
+  /* background-color: aliceblue;
+  height: 340px;
+width: 500vw;
+margin: 10px; */
+}
+.mobile{
+background-color: aliceblue;
+  
+ display: grid;
+ grid-template-columns: 400px 400px 400px 400px;
+ grid-template-rows: 300px;
+  margin: 10px;
+}
+.mobile1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(11, 10, 10);
+  background-color: aliceblue;
+height: 200px;
+width: 200px;
+}
+p{
+  background-color: aliceblue;
+  border: 2px solid red;
+  font-size: small;
+  font-weight: 600;
+  
+}
+main img{
+  height: 220px;
+width: 200px
+}
+.mobile2{
+  background-color: aliceblue;
+height: 200px;
+width: 200px;
+}
+.mobile3{
+  background-color: aliceblue;
+height: 200px;
+width: 200px;
+}
+
+.fridge{
+  
+     display: grid;
+   grid-template-columns: 400px 400px 400px 400px;
+   grid-template-rows: 300px;
+   background-color: aliceblue;
+   margin-top: 20px;
+   /* height: 340px;
+  column-gap: 50px; */
+  }
+  .fridge1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(11, 10, 10);
+    background-color: aliceblue;
+  height: 200px;
+  width: 200px;
+  }
+
+  .fridge2{
+    background-color: aliceblue;
+  height: 200px;
+  width: 200px;
+  }
+  .fridge3{
+    background-color: aliceblue;
+  height: 200px;
+  width: 200px;
+  }
+  .fridge img{
+    height: 270px;
+    width: 250px 
+  }
+  .fridge2 img{
+    height: 200px;
+    width: 250px 
+  }
+  .fridge3 img{
+    height: 190px;
+    width: 250px 
+  }

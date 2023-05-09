@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      form {
+        font-size: 30px;
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- FOR MAKING HTML FORMS-->
+    <form method="get" target="_blank" action="/signup">
+      <fieldset>
+        <legend>Registration Form!!</legend>
+        <label for="name">Please Enter Your name:</label>
+        <input type="text" id="name" name="username" />
+        <br />
+        <label for="Address">Please Enter Your Address:</label>
+        <!-- textarea provide multiple line to write -->
+        <textarea rows="2" cols="20" id="Address" name="userAddress"></textarea>
+        <br />
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="userdob" />
+        <br />
+        <label for="password">Enter Password</label>
+        <input type="password" id="password" name="userpassword" />
+        <!-- name attribute is use for the server understanding only -->
+        <br />
+        select gender:
+        <br />
+        <!-- put the name same of all input ,so that user can pick only one option -->
+        <!-- for option we need to take input type radio-->
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="transgender">Transgender</label>
+        <input
+          type="radio"
+          id="transgender"
+          name="gender"
+          value="transgender"
+        />
+        <br />
+        select favourite movies:
+        <br />
+        <label for="Avengers">Avengers</label>
+        <input type="checkbox" id="avengers" value="avengers" />
+        <br />
+        <label for="Pathaan">Pathaan</label>
+        <input type="checkbox" name="pathaan" id="pathaan" value="pathaan" />
+        <br />
+        <label for="Ramsetu">Ramsetu</label>
+        <input type="checkbox" name="ramsetu" id="ramsetu" value="ramsetu" />
+        <br />
+        <input type="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
