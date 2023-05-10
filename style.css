@@ -11,7 +11,7 @@ font-family: 'Poppins', sans-serif;
 header{
   /* background-color: rgb(18, 174, 143); */
   background-image: repeating-radial-gradient(yellow,aqua,rgb(8, 95, 82));
-  height: 200px;
+  height: 240px;
 }
 h1{
   display: flex;
@@ -24,6 +24,14 @@ h2{
   height: 40px;
 
 }
+.log-animate{
+ display: flex;
+ justify-content: center;
+}
+@keyframes animate {
+  
+}
+
 nav{
   margin: 8px;
     display: grid;
